@@ -21,6 +21,10 @@ all =
       , avatar = Pages.images.author.dillon
       , bio = "Elm developer and educator. Founder of Incremental Elm Consulting."
       }
+    , { name = "Fleischman Raul Andor"
+      , avatar = Pages.images.author.raul
+      , bio = "Software developer and Elm enthusiast."
+      }
     ]
 
 
