@@ -130,7 +130,10 @@ update msg model =
             ( model, Cmd.none )
 
 
+
 --subscriptions : Model -> Sub Msg
+
+
 subscriptions _ _ _ =
     Sub.none
 
@@ -271,7 +274,7 @@ head metadata =
                     in
                     Seo.summary
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Fleischman Raul Andor"
                         , image =
                             { url = meta.avatar
                             , alt = meta.name ++ "'s elm-pages articles."
@@ -291,7 +294,7 @@ head metadata =
                 Metadata.BlogIndex ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages"
+                        , siteName = "fra"
                         , image =
                             { url = images.iconPng
                             , alt = "elm-pages logo"
